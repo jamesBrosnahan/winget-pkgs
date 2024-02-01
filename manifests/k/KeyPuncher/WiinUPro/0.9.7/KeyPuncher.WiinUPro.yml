@@ -1,0 +1,14 @@
+PackageIdentifier: KeyPuncher.WiinUPro  # Publisher.package format.
+PackageVersion: 0.9.7 # Version numbering format.
+PackageLocale: en-US      # BCP 47 format (e.g. en-US)
+Publisher: KeyPuncher          # The name of the publisher.
+PackageName: WiinUPro        # The name of the application.
+License: Microsoft Public License (MS-PL)        # The license of the application.
+ShortDescription: WiinUPro is a software tool that enables the use of Nintendo Wii and Wii U controllers as customizable input devices for PC games and applications.   # The description of the application.
+Installers: 
+ - Architecture: x64    # Enumeration of supported architectures.
+   InstallerType: exe   # Enumeration of supported installer types (exe, msi, msix, inno, wix, nullsoft, appx).
+   InstallerUrl: https://github.com/KeyPuncher/WiinUPro/releases/download/WiinUPro0.9.7b/WiinUPro_0.9.7_setup.exe    # Path to download installation file.
+   InstallerSha256: 0E626B5D67B75840DD832AB88672D462701B3868F4B95D243CDD9B2806C3C2B4 # SHA256 calculated from installer.
+ManifestType: singleton       # The manifest file type
+ManifestVersion: 1.0.0
